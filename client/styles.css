@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+.loading {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.chirps {
+    width: 75%;
+    margin: 0px auto;
+}
+.chirps > div {
+    box-shadow: 2px 2px 10px black;
+    margin: 10px auto;
+    padding: 10px 25px;
+}
+.chirps > div> p {
+    padding: 0 20px;
+}
+.chirps > div> small {
+    text-align: right;
+    display: block;
+}
