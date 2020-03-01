@@ -3,7 +3,7 @@ console.log("If you see this you're awesome!");
 const form = document.querySelector("form");
 const loadingElement = document.querySelector('.loading');
 const chirpsElement = document.querySelector('.chirps');
-const API_URL = window.location.hostname === 'localhost' ? "http://localhost:5000/chirps" : 'https://chirp-lilac.now.sh';
+const API_URL = window.location.hostname === '127.0.0.1' ? "http://localhost:5000/chirps" : 'https://chirpserver.xjkbro.now.sh/chirps';
 
 loadingElement.style.display = '';
 

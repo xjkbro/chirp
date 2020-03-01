@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "build": "nodemon ."
   },
   "keywords": [],
   "author": "",
@@ -18,5 +17,8 @@
     "monk": "^7.1.2",
     "morgan": "^1.9.1",
     "now": "^17.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

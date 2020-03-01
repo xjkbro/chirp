@@ -5,7 +5,6 @@ const monk = require('monk');
 const filter = require('bad-words');
 const rateLimit = require('express-rate-limit');
 
-
 const app = express();
 
 const db = monk(process.env.MONGO_URI || 'localhost/chirpdb');      //creates database
